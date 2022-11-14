@@ -30,7 +30,7 @@ def Crawler():
     Load_Scene = tk.Toplevel()
     Load_Scene.title("抓取結果")
     Load_Scene.geometry("600x500")
-    Load_Scene.iconbitmap("LOGO.ico")
+    # Load_Scene.iconbitmap("LOGO.ico")
     Load_Scene.grab_set() # lock on new scene
     tree=ttk.Treeview(Load_Scene,columns=("0","1","2","3"),show="headings")
     tree.heading("0",text="人物")
@@ -69,7 +69,7 @@ y=100  # 與視窗左上y的距離
 root.geometry('{}x{}+{}+{}'.format(w,h,x,y))
 root.title(title.get())
 root.configure(bg="#7AFEC6")
-root.iconbitmap('LOGO.ico')
+# root.iconbitmap('LOGO.ico')
 
 
 # L1=tk.Label(root,text='I am Label',bg='#DDA0DD',fg="#8B008B",font=("'microsoft yahei",18,"bold"))
